@@ -10,3 +10,9 @@ The model with the best accuracy was then saved into a binary file.
 I then commented this piece of code once the best model was found.
 The model with the best accuracy was then loaded in from the binary file and used to predict the price ranges using the test data (data, the model had never seen). 
 I then printed the actual prices along with the models’ predictions. The current model has an accuracy of 91.922%.
+
+To run my program:
+-Clone my repository and navigate to it
+-Create a virtual environment and activate it --> python -m venv venv and venv/Scripts/activate (for windows)
+-Install all dependencies (in the requirements.txt file) --> pip install -r requirements.txt
+-Run program
